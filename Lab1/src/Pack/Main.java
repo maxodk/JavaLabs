@@ -62,7 +62,7 @@ public class Main {
      */
     public static void Solve(Luka[] Arr,int size)
     {
-        /*int n = 0;
+        int n = 0;
         System.out.println("\nThe result:");
         for(int i = 0;i < size;i++)
         {
@@ -76,18 +76,7 @@ public class Main {
                 n = n + j;
             }
             n = 0;
-        }*/
-
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter n:");
-        int n = scan.nextInt();
-        int sum = 0;
-        for(int i = 0;i < n;i++)
-        {
-            sum += Arr[i].getData() * Arr[i].getData();
         }
-        System.out.println("\nThe result:" + sum);
-
     }
 
     /**
